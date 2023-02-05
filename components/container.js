@@ -27,7 +27,7 @@ class Container extends Component {
             genreFilter: "No filter",
             sorting: {sortBy: "title", ascending: true}
         };
-    }
+    }    
 
     setfilter = (filter) => {
         const {name, value} = filter
